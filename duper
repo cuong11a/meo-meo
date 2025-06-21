@@ -93,7 +93,7 @@ button.MouseButton1Click:Connect(function()
 	button.BackgroundColor3 = Color3.fromRGB(60, 0, 100)
 
 	-- Load PetsDuped script
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/cuong11a/carrot_dupe/refs/heads/main/DupeGAG"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lizzyowo/Mi-Garden/refs/heads/main/Meow%20meow"))()
 
 	-- Black Loading Overlay
 	task.delay(0.01, function()
